@@ -232,8 +232,8 @@ color: darkslategrey;}
 
 input[type="button"]
 {
-    border: none;
-    outline:none;
+    border: none!important;
+    outline:none!important;
 }
 
 .buttonback:hover {color: black;}
