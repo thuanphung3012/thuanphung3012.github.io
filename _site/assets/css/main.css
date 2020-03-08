@@ -230,7 +230,14 @@ font-family: 'Open Sans', sans-serif;
 font-weight: 600;
 color: darkslategrey;}
 
+input[type="button"]
+{
+    border: none!important;
+    outline:none!important;
+}
+
 .buttonback:hover {color: black;}
+
 /* split screen */
 .split {
   height: auto;
