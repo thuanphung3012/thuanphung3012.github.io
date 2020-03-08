@@ -241,25 +241,24 @@ input[type="button"]
 /* split screen */
 .split {
   height: auto;
-  width: 45%;
+  width: 40%;
   position: absolute;
   z-index: 1;
-top : 200px;
-    bottom: 50px;
-  overflow-x: hidden;
-    
+top : 190px;
+bottom: 40px;
+  overflow-x: hidden;    
 }
 
 @media only screen and (max-width: 900px){
     .split {top : 100px;
-    bottom: 100px;},
+    bottom: 100px;}
 }
 
 /* Control the left side */
 .left {
 left: 0;
 background-color: none;
-margin-left: 50px;
+margin-left: 70px;
 cursor: url('../images/arrow-down.png'), auto;
 }
 
@@ -272,7 +271,7 @@ cursor: url('../images/arrow-down.png'), auto;
 right: 0;
 background-color: none;
 text-align: left;   
-margin-right: 50px;
+margin-right: 70px;
 cursor: url('../images/arrow-down.png'), auto;
 
 }
