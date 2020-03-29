@@ -152,8 +152,8 @@ overflow-y: scroll;
 margin-bottom: 40px;
 }
 
-.container h1 {margin-left: 40px; margin-right: 320px;padding-right: 120px; margin-top : 50px;color: darkslategray!important;}
-
+.container h1 {
+    margin-left: 40px; margin-right: 320px;padding-right: 120px; margin-top : 50px;color: darkslategray!important;}
 
 .container h2 { display: flex; font-size: 30px;
     margin-top : 150px;
@@ -265,6 +265,7 @@ cursor: url('../images/arrow-down.png'), auto;
 .left img {height: auto; width: 100%;}
 .right img {height: auto; width: 100%;}
 
+video { left: 0;height: auto; width: 100%;}
 
 /* Control the right side */
 .right {
