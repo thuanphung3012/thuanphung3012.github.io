@@ -584,7 +584,6 @@ video {
 }
 
 @media screen and (max-width: 1523px) {
-
 .content-project{display: none;}
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
@@ -615,13 +614,12 @@ video {
 .collapsible {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 2px;  vertical-align: middle;}
 
    .collapsible-text p{ margin-top: -1px;margin-left: -2px;}
-    p{font-size: 20px;line-height: 22px;}
+    p{font-size: 15px;line-height: 15px;}
     
     .content {margin-top: 15px;padding-top: 10px;}
    
     .row-contain{
-        font-size: 20px;
-        margin-left: -74px;
+        margin-left: -80px;
        background: none;
         margin-bottom: 0px;
         margin-top: 12px;
@@ -633,12 +631,12 @@ video {
        background: none;
         margin-bottom: 0px;
        }
-    .row-contain3{margin-left: -74px; margin-top: 12px;}
-    .row-contain4{margin-left: -148px;}
+    .row-contain3{margin-left: -62px; margin-top: 12px;}
+    .row-contain4{margin-left: -124px;}
     .row-contain5 p{ font-size: 15px;left: 0; right: 0;}
     .content-2 img{height: auto;margin-left:25px; margin-right:10px; width: 80%; text-align: center; margin-top: 10px}
    
-    .topnav a h1{font-size: 20px;}
+    .topnav a h1{font-size: 13px;}
     .topnav a.icon{ margin-top: -50px;font-size: 20px;}
     .column-header h2{font-size: 13px;}
     .column-header {margin-top: -25px;}
@@ -668,34 +666,6 @@ video {
     #product{display: block; margin-left: auto; margin-right: auto; width: 100%;}
     .right-column h3{font-size: 15px;font-weight: 400}
 }
-
-@media screen and (min-width: 398px) {.collapsible {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 2px;  vertical-align: middle;}
-
-   
-    .row-contain{
-        font-size: 20px;
-        margin-left: -74px;
-       background: none;
-        margin-bottom: 0px;
-        margin-top: 12px;
-    }
-    .row-contain2{
-        margin-top: 5px;
-        margin-left: -50px;
-     padding-left: 43px;
-       background: none;
-        margin-bottom: 0px;
-       }
-    .row-contain3{margin-left: -74px; margin-top: 12px;}
-    .row-contain4{margin-left: -148px;}
-    .row-contain5 p{ font-size: 15px;left: 0; right: 0;}
-    .content-2 img{height: auto;margin-left:25px; margin-right:10px; width: 80%; text-align: center; margin-top: 10px}
-   
-    .topnav a h1{font-size: 20px;}
-
-    .column-header h2{font-size: 13px;}
-    .column-header {margin-top: -25px;}}
-
 @media screen and (max-width: 275px) {
     .row-contain{margin-top: 0px;}
     .row-contain2{
