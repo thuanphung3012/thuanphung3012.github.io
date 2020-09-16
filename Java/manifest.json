@@ -1,0 +1,13 @@
+{
+  "name": "Thuan Phung
+  "short_name": "Thuan
+  "description": "Graphic Designer/UX Designer. Parsons School of Design",
+  "start_url": "/?homescreen=1",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [{
+    "src": "icon-256.png",
+    "sizes": "256x256",
+    "type": "image/png"
+  }]
+}
