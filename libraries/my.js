@@ -96,9 +96,9 @@ function topFunction() {
 var flipbookEL = document.getElementById('flipbook');
 
 window.addEventListener('resize', function (e) {
-	flipbookEL.style.width = '';
-  flipbookEL.style.height = '';
-  $(flipbookEL).turn('size', flipbookEL.clientWidth, flipbookEL.clientHeight);
+	flipbook.style.width = '';
+  fflipbook.style.height = '';
+  $(fflipbook).turn('size', flipbook.clientWidth, flipbook.clientHeight);
 });
 
 $(flipbook).turn({
