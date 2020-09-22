@@ -96,12 +96,12 @@ function topFunction() {
 var flipbookEL = document.getElementById('flipbook');
 
 window.addEventListener('resize', function (e) {
-	flipbook.style.width = '';
-  fflipbook.style.height = '';
-  $(fflipbook).turn('size', flipbook.clientWidth, flipbook.clientHeight);
+	flipbookEL.style.width = '';
+  flipbookEL.style.height = '';
+  $(flipbookEL).turn('size', flipbookEL.clientWidth, flipbookEL.clientHeight);
 });
 
-$(flipbook).turn({
+$(flipbookEL).turn({
     autoCenter: true
 });
 
