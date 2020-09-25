@@ -1,3 +1,4 @@
+// Top bar navigation 
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -8,7 +9,7 @@ function myFunction() {
 }
 
 
-
+// Button "more information" - "less information"
 $('button').on("click", function() {
   $(this).toggleClass('active');
 });
@@ -24,7 +25,7 @@ $(document).ready(function () {
 });
 
 
-
+// Button + - when click "More information"
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
