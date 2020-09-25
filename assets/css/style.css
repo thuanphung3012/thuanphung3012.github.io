@@ -21,7 +21,7 @@ body {
     }
 
 .topnav a h1{ padding-right: 280px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 20px; font-style: medium; font-variant: normal; font-weight: 450; line-height: 40px;!important 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 20px; font-style: medium; font-variant: normal; font-weight: 450; line-height: 40px;
 }
 
 
@@ -61,8 +61,7 @@ h3{font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  font-style: nor
 
 a,a:visited, a:link, a:active{
 color:black;
-text-decoration:none;!important
-    
+text-decoration:none;
 }
 
 /* Button click */
@@ -70,11 +69,11 @@ button {
   color: black;
   background: none;
   padding-left: 8px;
-    width: auto;
+  width: auto;
   height:10px;
   border: 0;
   font-size: 15px;
-    outline: none;!important
+  outline: none;
 }
 .collapsible {
   background-color: none;
@@ -220,7 +219,7 @@ th:focus::after {
 
 .right-column {
     margin-right: 20px;
-    padding-top: -20px;!important
+    padding-top: -20px;
     margin-left: 10px;
     width:auto;
     margin-right: 20px;
@@ -253,7 +252,6 @@ th:focus::after {
 
 #box {
     overflow-y: hidden;
-    overflow-x: hidden;
     white-space: nowrap;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -642,7 +640,8 @@ video {
     .column-header {margin-top: -25px;}
 
     #box img
-{width: 370;margin-left:0px;margin-right: 10px;padding-right: 35px;cursor: }
+{width: 370;margin-left:0px;margin-right: 10px;padding-right: 35px;
+}
     #b1{font-size: 25px;margin-bottom: 10px;}
     #b2{font-size: 25px;margin-bottom: 10px;}
     #myBtn{font-size: 25px;margin-top: 20px; left: 34%}
